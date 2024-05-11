@@ -11,7 +11,7 @@ const initialFeedback = {
 };
 
 function App() {
- const [feedback, setFeedback] = useState(() => {
+  const [feedback, setFeedback] = useState(() => {
     const savedClicks = localStorage.getItem("key-clicks");
     return savedClicks !== null ? JSON.parse(savedClicks) : initialFeedback;
   });

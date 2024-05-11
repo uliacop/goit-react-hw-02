@@ -1,4 +1,4 @@
-button {
+.option {
   padding: 10px 20px;
   font-size: 16px;
   border: none;
@@ -9,10 +9,10 @@ button {
   margin: 10px;
 }
 
-button:hover {
+.option:hover {
   background-color: #ca89b7;
 }
 
-button:focus {
+.option:focus {
   background-color: #702d70;
 }
